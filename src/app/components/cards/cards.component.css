@@ -1,0 +1,170 @@
+body {
+  position: relative;
+  /* This is usually unnecessary as <body> is naturally the size of the viewport */
+  margin: 0;
+  /* Remove default margin */
+  height: 100vh;
+  /* Make sure body takes the full viewport height */
+}
+
+.card {
+  /* display: flex; */
+  border-radius: 8px;
+  border: 1px solid #DBDBDB;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(137, 137, 137, 0.05);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* This will space out your items evenly */
+  width: 40%;
+  position: absolute;
+  top: 96px;
+  right: 700px;
+  bottom: 346px;
+  left: 264px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-container>p-card {
+  flex-basis: calc(50% - 10px);
+  /* Adjust the 10px to account for margin or padding */
+  margin-bottom: 40px;
+  /* This adds space between the rows */
+}
+
+.cardheader {
+  color: #4B4B4B;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  color: #4B4B4B;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+
+.icon {
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+.icon-background {
+  background-color: #FCF1E7;
+  width: 35px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: -5px;
+}
+
+.icon1-background {
+  background-color: #FFE7E7;
+  width: 35px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: -5px;
+}
+
+.icon3-background {
+  background-color: #FFFFD7;
+  width: 35px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: -5px;
+}
+
+.icon4-background {
+  background-color: #E1F4FF;
+  width: 35px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: -5px;
+}
+
+::ng-deep .progressbar1 .p-progressbar {
+  border-radius: 30px;
+  width: 226px;
+  height: 6px;
+  background: #FCF1E7;
+  margin-top: -5px;
+}
+
+::ng-deep .progressbar1 .p-progressbar .p-progressbar-value {
+  background: #F8A45A;
+}
+
+::ng-deep .progressbar2 .p-progressbar {
+  border-radius: 30px;
+  width: 226px;
+  height: 6px;
+  background: #FFE7E7;
+  margin-top: -5px;
+}
+
+::ng-deep .progressbar2 .p-progressbar .p-progressbar-value {
+  background: #E56875;
+}
+
+.p1-text {
+  color: #F8A45A;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+
+.p2-text {
+  color: #E56875;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+
+.p3-text {
+  color: #C7C73A;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: 0.5px;
+  margin-top: 5px;
+}
+.p4-text {
+  color: #65BCF0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: 0.5px;
+  margin-top: 5px;
+}

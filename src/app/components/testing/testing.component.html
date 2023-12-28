@@ -1,0 +1,45 @@
+<div class="sidebar">
+<div class="headpanel">
+<p-panel header="Contactless App">
+  <p style="font-size: 12px; margin-bottom: -5px;color: #757E81; font-family: Roboto;">Dashboard Control panel</p>
+</p-panel>
+</div>
+<div class="p-grid ">
+  <div class="p-col-12 p-md-4">
+    <p-panel header="Smart Key Report">
+      <p style="font-size: 16px; margin-bottom: 1px;">Smart key activity record</p>
+    </p-panel>
+    </div>
+</div>
+
+<div class="p-grid ">
+  <div class="p-col-12 p-md-4">
+    <p-panel class="sidebar" header="Filters">
+      <div class="from">
+      <label>From</label>
+      <p-calendar [(ngModel)]="date" dateFormat="dd/mm/yy">From</p-calendar>
+      </div>
+      <div class="to">
+      <label>To</label>
+      <p-calendar [(ngModel)]="date" dateFormat="dd/mm/yy">From</p-calendar>
+      </div>
+      <div class="groupby">
+      <label>Group By</label>
+      <p-dropdown class="dropdown-btn" [options]="groupby" [(ngModel)]="selectedgroup" optionLabel="name" [showClear]="true" placeholder="Reservation"></p-dropdown>
+      </div>
+      <div class="taskstatus">
+        <label>Task Status</label>
+        <p-dropdown [options]="status" [(ngModel)]="selectedtask" optionLabel="task" [showClear]="true" placeholder="Success"></p-dropdown>
+        </div>
+        <div class="btns">
+          <button class="save" label="Save" pButton></button>
+        <button class="reset" label="Reset" pButton></button>
+        </div>
+        <div class="export">
+          <button class="exportbtn" label="EXPORT" pButton></button>
+        </div>
+    </p-panel>
+
+    </div>
+  </div>
+</div>

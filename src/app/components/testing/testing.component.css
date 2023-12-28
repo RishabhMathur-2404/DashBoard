@@ -1,0 +1,114 @@
+
+.p-grid{
+  width: 230px;
+}
+p{
+  color: #757E81;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 177.115px;
+margin-top: -5px;
+}
+.from{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: #000;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 183.333% */
+letter-spacing: 0.5px;
+}
+.to{
+  color: #000;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 183.333% */
+letter-spacing: 0.5px;
+margin-bottom: 25px;
+}
+.groupby{
+  color: #000;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 183.333% */
+letter-spacing: 0.5px;
+margin-bottom: 25px;
+}
+.sidebar{
+  height: 100%;
+}
+.taskstatus{
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 183.333% */
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+.btns{
+  display: flex;
+  gap:18px;
+  justify-content: center;
+}
+.export{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.exportbtn{
+  width: 100%;
+  background: #F8A45A;
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.5px;
+height: 30px;
+}
+.save{
+  background: #F8A45A;
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.5px;
+width: 45%;
+height: 30px;
+flex-shrink: 0;
+}
+.reset{
+  background: rgba(255, 234, 216, 0.60);
+  color: #F8A45A;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.5px;
+width: 45%;
+height: 30px;
+flex-shrink: 0;
+border: 0.5px solid #F8A45A;
+}
+::ng-deep .p-dropdown{
+  height: 30px;
+}
+::ng-deep .dropdown-btn .p-dropdown .p-dropdown-label.p-placeholder{
+  margin-top: -13px;
+  background: red;
+}

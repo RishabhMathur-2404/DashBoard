@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/md-light-indigo/theme.css";
+@import "primeng/resources/primeng.css";
+
+body {
+  position: relative; /* This is usually unnecessary as <body> is naturally the size of the viewport */
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Make sure body takes the full viewport height */
+}
+
+.p-calendar .p-inputtext{
+  height: 30px !important;
+}
+.p-dropdown{
+  width: 200px;
+  height: 30px;
+}
+.p-dropdown .p-dropdown-label.p-placeholder{
+  margin-top: -13px;
+}
+.p-panel{
+  /* border-radius: 8px; */
+  border: 1px solid #DBDBDB;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(137, 137, 137, 0.05);
+}
+.p-panel-header{
+  height: 1%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.p-card .p-card-content{
+  display: contents;
+}
+.p-card{
+  border-radius: 8px;
+border: 1px solid #DBDBDB;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(137, 137, 137, 0.05);
+}
+

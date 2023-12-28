@@ -1,0 +1,153 @@
+.reservation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 266px;
+  height: 264px;
+  border-radius: 8px;
+  border: 1px solid #DBDBDB;
+
+  position: absolute;
+  top: 457px;
+  right: 1006px;
+  bottom: 21.8px;
+  left: 264px;
+}
+
+.reservation-item {
+  border: 1px solid #DBDBDB;
+  background: #FFF;
+  height: 66px;
+  padding-left: 20px;
+}
+
+.reservation-item h5 {
+  color: #4B4B4B;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: 0.5px;
+  margin-top: 11px;
+
+}
+
+.reservation-item p {
+  color: #4B4B4B;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: 0.5px;
+  margin-top: -22px;
+}
+
+.table {
+  width: 941px;
+  height: 258px;
+  border-radius: 8px;
+  border: 0.5px solid #DBDBDB;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(137, 137, 137, 0.05);
+
+  position: absolute;
+  top: 457px;
+  right: 25px;
+  bottom: 21.8px;
+  left: 570px;
+}
+
+.table td {
+  text-align: center;
+  /* Center text horizontally */
+  vertical-align: middle;
+  /* Center text vertically */
+  color: #4B4B4B;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 183.333% */
+  letter-spacing: 0.5px;
+  border: 0.5px solid #DBDBDB;
+  background: #FFF;
+
+}
+
+.table th {
+  text-align: center;
+  /* Center text horizontally */
+  vertical-align: middle;
+  color: #4B4B4B;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: 0.5px;
+  border: 0.5px solid #DBDBDB;
+}
+
+.status-success {
+  color: #0B8700 !important;
+}
+
+.status-failed {
+  color: red !important;
+}
+
+.table-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #AAA;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 183.333% */
+  letter-spacing: 0.5px;
+  padding-left: 410px;
+}
+
+.page-button:hover {
+  background-color: #FFF2E6;
+  color: #F8A45A;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 183.333% */
+  letter-spacing: 0.5px;
+  border: 0.5px solid #F8A45A;
+  border-radius: 100% !important;
+}
+
+.page-button {
+  border: none;
+  padding: 5px 20px;
+  margin: 0 2px;
+  /* cursor: pointer; */
+  background: none;
+  color: #AAA;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 183.333% */
+  letter-spacing: 0.5px;
+}
+::ng-deep .p-table{
+  height: 258px;
+}
+

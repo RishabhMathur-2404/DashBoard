@@ -1,17 +1,7 @@
 .graph{
-  width: 550px;
-height: 304px;
-margin-left: -5px;
-
-  position: absolute;
-  top: 96px;
-  right: 25px;
-  bottom: 348px;
-  left: 876px;
-  border-radius: 8px;
-border: 1px solid #DBDBDB;
-background: #FFF;
-box-shadow: 0px 4px 4px 0px rgba(137, 137, 137, 0.05);
+  width: 515px;
+  height: 293px;
+  margin-left: -7px;
 }
 .p-chart{
   background-color: white;

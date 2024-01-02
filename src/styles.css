@@ -12,17 +12,11 @@ body {
   height: 30px !important;
 }
 .p-dropdown{
-  width: 200px;
+  width: 100%;
   height: 30px;
 }
 .p-dropdown .p-dropdown-label.p-placeholder{
   margin-top: -13px;
-}
-.p-panel{
-  /* border-radius: 8px; */
-  border: 1px solid #DBDBDB;
-  background: #FFF;
-  box-shadow: 0px 4px 4px 0px rgba(137, 137, 137, 0.05);
 }
 .p-panel-header{
   height: 1%;
@@ -36,9 +30,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   display: contents;
 }
 .p-card{
+  flex: 0 1 auto; /* Do not grow, do not shrink, initial size is auto */
+  margin: 10px; /* Space between cards */
   border-radius: 8px;
-border: 1px solid #DBDBDB;
-background: #FFF;
-box-shadow: 0px 4px 4px 0px rgba(137, 137, 137, 0.05);
+  border: 1px solid #DBDBDB;
+  background: #FFF;
+  box-shadow: 0px 4px 4px rgba(137, 137, 137, 0.05);
 }
 
